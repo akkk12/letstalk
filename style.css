@@ -3,10 +3,12 @@
 .tracking-in-expand {
 	-webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 	        animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-font-family: 'Raleway', sans-serif;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Shadows Into Light', cursive;
  font-size: 500%;
    text-shadow: 2px 2px 5px grey ;
- color:  white  ;   padding-top : 2% ;
+color : rgb(230, 0, 92);   padding-top : 2% ;
 
 
 }
@@ -50,9 +52,19 @@ font-family: 'Raleway', sans-serif;
 
 
 body {
-background-image: url("backdrop.png");
+background: rgb(255,121,210);
+background: linear-gradient(357deg, rgba(255,121,210,1) 0%, rgba(251,255,149,1) 100%);
 text-align:  center ; 
-color:  white ;
+
+ background-image: url("self.png");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   
  
 
@@ -60,11 +72,11 @@ color:  white ;
 }
 
 p{
-	font-family: 'Raleway', sans-serif;
-    text-align: center; 
+font-family: 'Kaushan Script', cursive;  
+  text-align: center; 
  padding : 2% ;
 
- font-size: 120%;
+ font-size: 200%;
 
 }
 .icon{
@@ -72,4 +84,6 @@ p{
 	border-radius: 350px;
 	position:fixed;  top:150px;
 	left: 80px;
+	width: 800px;
+
 }
